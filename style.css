@@ -143,15 +143,18 @@ h2 {
   background-size: cover;
   height: 600px;
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .subscribe h3 {
-  padding-top: 200px;
+  padding-top: 250px;
   margin: 0;
   color: #ffffff;
   line-height: 0em;
   font-weight: bold;
   letter-spacing: 5px;
+  text-align: center;
 }
 
 .email {
@@ -186,4 +189,23 @@ h2 {
   margin-bottom: 0px;
   font-size: 24px;
   padding: 20px;
+}
+
+.download {
+  height: 300px;
+  background-color: #f5f6f8;
+  padding-top: 50px;
+}
+
+.download p {
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download h2 {
+  text-align: center;
+  color: black;
+  font-family: "nunito";
 }
