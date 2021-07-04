@@ -1,0 +1,161 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 50px;
+}
+
+.header {
+  padding: 2%;
+}
+
+.hero {
+  background: url("images/header-bg.jpg");
+  text-align: center;
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 36px;
+  color: aliceblue;
+  line-height: 0em;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: aliceblue;
+  letter-spacing: 5px;
+}
+
+.middleBody,
+.iconSection,
+.fourthBlockLeft {
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+button {
+  background-color: #00a374;
+  color: aliceblue;
+  font-size: 16px;
+  border: 0ch;
+  border-radius: 4px;
+  padding: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+
+i {
+  color: aliceblue;
+  margin: 8px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #00a374;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.secondBlock p,
+.thirdBlock p {
+  color: black;
+  width: 400px;
+}
+
+.secondBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  background-color: #f5f6f8;
+  height: 300px;
+  overflow: hidden;
+}
+
+.handImage {
+  width: 100%;
+}
+
+.thirdBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  background-color: #ffffff;
+  height: 300px;
+  overflow: hidden;
+}
+
+.thirdBlockRight {
+  width: 500px;
+}
+
+.thirdBlock i,
+.fourthBlockRight i {
+  color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.smallText {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.fourthBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  background-color: #f5f6f8;
+  height: 300px;
+  overflow: hidden;
+}
+
+.fourthBlockLeft {
+  width: 20%;
+}
+
+.fourthBimages img {
+  float: left;
+  margin: 20px;
+}
+
+.subscribe {
+  background: url("images/subscribe-bg.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.subscribe h3 {
+  text-align: center;
+  padding: 250px 0;
+  color: #ffffff;
+  line-height: 0em;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+input [type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
