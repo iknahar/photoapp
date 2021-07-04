@@ -142,20 +142,48 @@ h2 {
   background: url("images/subscribe-bg.jpg");
   background-size: cover;
   height: 600px;
+  display: flex;
 }
 
 .subscribe h3 {
-  text-align: center;
-  padding: 250px 0;
+  padding-top: 200px;
+  margin: 0;
   color: #ffffff;
   line-height: 0em;
   font-weight: bold;
   letter-spacing: 5px;
 }
 
-input [type="email"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+.email {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+  padding: 20px 30px;
+  font-weight: bold;
+}
+
+.formEmail {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.iconButton {
+  background-color: #00a374;
+  color: aliceblue;
+  font-size: 16px;
+  border: 0ch;
+  border-radius: 0 3px 3px 0;
+  padding: 0px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 0px;
+}
+.subscribe i {
+  color: aliceblue;
+  margin: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  padding: 20px;
 }
